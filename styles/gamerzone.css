@@ -4,3 +4,47 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+* {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+/* navbar related style  */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.heading {
+    color: rgb(238, 53, 238);
+}
+
+.navbar-title {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar-title li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
