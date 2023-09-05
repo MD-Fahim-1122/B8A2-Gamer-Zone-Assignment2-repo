@@ -55,6 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 
 }
@@ -114,9 +115,60 @@ section img {
     height: 346px;
 }
 
+/* details-section  */
 
+.details-section {
+    text-align: center;
 
+}
 
+.online-games-heading {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.online-games-heading-funny-section {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.rectangle-img img {
+    width: 200px;
+    height: 200px;
+}
+
+.rectangle-img {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    max-width: 900px;
+}
+
+.rectangle-img p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
 
 
 
@@ -130,19 +182,24 @@ section img {
 
 @media screen and (max-width : 576px) {
 
-    body{
+    body {
         margin: auto;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
     }
 
-    .navbar-title{
+    .navbar-title {
         flex-direction: column;
         margin-top: 30px;
-    } 
+    }
 
     .banner-section {
+        flex-direction: column;
+    }
+
+    .rectangle-img{
         flex-direction: column;
     }
 }
